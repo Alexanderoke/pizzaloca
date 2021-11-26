@@ -1,0 +1,8 @@
+body{
+  
+    background-image: url('Static/images/pizza.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  
+  }
