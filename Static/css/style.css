@@ -19,8 +19,6 @@
   width: 40px;
 }
 /* order page*/
-.pep{
-  height: fluid;
-  width: .25px;
-  margin: 20px;
+.container1{
+  padding: 20px;
 }
