@@ -21,10 +21,19 @@
 /* order page*/
 .container1{
   padding: 20px;
+  color:black;
 }
-.pep{
-  border-radius: 2000px;
+.large{
+  border-radius: 1000px;
+}
+.medium{
+  border-radius: 1000px;
+}
+.small{
+  border-radius: 1000px;
 }
 .input{
   display: none;
+  width: 70px;
+  height: 30px;
 }
