@@ -25,3 +25,6 @@
 .pep{
   border-radius: 2000px;
 }
+.input{
+  display: none;
+}
