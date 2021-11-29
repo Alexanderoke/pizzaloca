@@ -1,3 +1,5 @@
 function totalOrder(){
-var x=parseInt
+var x=document.getElementsByTagName("").value;
+var y= parseInt((document.getElementById("num").value 
+alert(x*y);
 }

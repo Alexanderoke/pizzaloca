@@ -30,12 +30,12 @@
   <p><strong>Sizes</strong></p>
   <select class="form-control">
     <option value="" difault>Choose Size</option>
-    <option data-price="500" value="large">Large</option>
-    <option data-price= "250" value="medium">Medium</option>
-    <option data-price= "180" value="small">Small</option>
+    <option data-price="500" id="dprice" value="500">Large</option>
+    <option data-price= "250" id="dprice" value="250">Medium</option>
+    <option data-price= "180" id="dprice" value="180">Small</option>
   </select><br>
   <p>Topings</p>
-  <select name="" id="">
+  <select name="topings" id="topselect">
     <option value="" difault>Choose Topings</option>
     <option value="peperoni">peperoni</option>
     <option value="BBQbeef">BBQbeef</option>
@@ -51,8 +51,8 @@
     <option value="stuffed">stuffed crust</option>
   </select>
   <br />
-  <label for="">how many <br /><input type="number" /></label>
-
+  <label for="">how many <br /><input type="number" id="num" /></label>
+<button onclick="totalOrder()" >place order</button>
 </div>
 <div class="dadress">
 <p>Delivery Address</p>
