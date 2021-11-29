@@ -4,6 +4,15 @@
 .bcontent{
   line-height: 80px;
 }
+.select{
+  padding: 20px;
+  
+}
+.dadress{
+  padding: 100px;
+  color: white;
+  }
+
 
 
 .imgf1{
@@ -25,6 +34,8 @@
 }
 .large{
   border-radius: 1000px;
+
+  
 }
 .medium{
   border-radius: 1000px;
@@ -32,8 +43,40 @@
 .small{
   border-radius: 1000px;
 }
-.input{
-  display: none;
-  width: 70px;
-  height: 30px;
+
+
+/* .selectpop{
+  position: relative;
+  text-align: center;
+  width:100%;
 }
+ .listpopup{
+   display: none; 
+  position: fixed;
+  left: 45%;
+  top:5%;
+  transform: translate(-50%,5%);
+  border:3px solid #999999;
+  z-index: 9;
+}
+.listcontainer{
+  max-width: 300px;
+  padding: 20px;
+  background-color: olive;
+}
+.listcontainer.btn{
+  padding: 12px 20px;
+  border: none;
+  background-color: navy;
+  color: #fff;
+  cursor:pointer;
+  opacity:0.8;
+} 
+
+
+.listcontainer.btn cancel{
+  background-color: navy;
+}
+.listcontainer.btn:hover,.large:hover{
+opacity: 1;
+} */

@@ -14,8 +14,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-</head>
-<body>
+    
   <div>
     <nav class="nav">
       <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -24,28 +23,40 @@
       <a class="nav-link" href="#">FAQS</a>
     </nav>
   </div>
-  <div class=" text-center container1 bg-image" style="background-image: url('Static/images/background images/istockphoto-124397633-612x612.jpg');" >
+  <div class=" text-center container1 bg-image" style="background-image:conic-gradient(rgb(204, 95, 95),rgb(150, 134, 134),rgb(99, 99, 223),pink,green);" >
 <h2>Place Your Orders</h2>
 <h3>Available Sizes</h3>
-<div class="row" >
-  <div class="col" >
-    <p>Large Pizza</p>
-    <img class="img-fluid large" style="height: 400px; max-width:400px;" src="Static/images/pizza topings/large.jpg" alt="">
-  </div>
-<div class="col" >
-  <p>Medium PIzza</p>
-  <img class="img-fluid  medium" style="height: 300px; max-width:auto;" src="Static/images/pizza topings/medium.jpg" alt="">
+<div class="select" >
+  <p><strong>Choose size</strong></p>
+  <select class="form-control">
+    <option value="" difault>Choose Size</option>
+    <option data-price="500" value="large">Large</option>
+    <option data-price= "250" value="medium">Medium</option>
+    <option data-price= "180" value="small">Small</option>
+  </select><br>
+  <p>Topings</p>
+  <select name="" id="">
+    
+    <option value="peperoni">peperoni</option>
+    <option value="BBQbeef">BBQbeef</option>
+    <option value="Hawaian pineaple">Hawaian pineaple</option>
+    <option value="Garlicprawn">Garlic prawn and chilli</option>
+    <option value="Margherita">Margherita</option>
+  </select>
+  <p><strong>Choose Crust</strong></p>
+  <select name="" id="">
+    <option value="thincrust">THin crust</option>
+    <option value="thickcrust">Thick crust</option>
+    <option value="stuffed">stuffed crust</option>
+  </select>
+  <br />
+  <label for="">how many <br /><input type="number" /></label>
 
 </div>
-<div class="col" >
-  <p>Small Pizza</p>
-  <img class="img-fluid small" style="max-height: 300px; max-width:auto;" src="Static/images/pizza topings/small.jpg" alt="">
-
+<div class="dadress">
+<p>Delivery Address</p>
+<input type="text">
 </div>
-
-
-</div>
-
 
 
 
