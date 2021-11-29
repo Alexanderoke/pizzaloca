@@ -7,7 +7,7 @@ The pizza Loca web app is designed for online custmers who woul love to oorder p
 * Clone the repo git clone https://github.com/Alexanderoke/pizzaloca.git
 * Run the code in your prefered browser
 No server or dependencies needed
-## Live link: 
+## Live link: https://alexanderoke.github.io/pizzaloca/
 ## Known Bugs
 The ap oes not yet function as required.
 ## Technologies Used
