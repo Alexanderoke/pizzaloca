@@ -52,24 +52,26 @@
   </select>
   <br />
   <label for="">how many <br /><input type="number" id="num" /></label>
-<button onclick="totalOrder()" >place order</button>
+
 </div>
-<div class="dadress">
-<p>Delivery Address</p>
-<input type="text" id="adress">
+<p>Want your pizza delivered?</p>
+<div class="radio-group">
+  <label>
+    <input type="radio" value="Yes" name="gender" id="yes">
+Yes
+<span></span>
+  </label>
+  <label>
+    <input type="radio" value="No" name="gender" id="no">
+No
+<span></span>
+  </label>
+
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
+<p><strong>Delivery Address</strong></p>
+<input type="text" id="adress" ><br>
+<button class="btn-warning bt" onclick="totalOrder()" >place order</button>
+</div>
 
 </div>
 <nav>
