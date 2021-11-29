@@ -1,7 +1,7 @@
 function yes(){
-  var yes=document.getElementById("yes");
-var no=document.getElementById("no");
-  if (yes) {
+  var yes=document.getElementById("yes").value;
+var No =document.getElementById("no").value;
+  if (yes="yes") {
     var x=document.getElementById("size").value;
 var y=document.getElementById("num").value;
 var z=document.getElementById("adress").value;
